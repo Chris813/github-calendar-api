@@ -9,8 +9,8 @@ def list_split(items, n):
 def getdata(name):
     print(name)
     gitpage = requests.get("https://github.com/" + name,proxies={
-        "http": "http://127.0.0.1:7890",
-        "https": "http://127.0.0.1:7890",
+        # "http": "http://127.0.0.1:7890",
+        # "https": "http://127.0.0.1:7890",
     })
     print(gitpage)
     
